@@ -7,4 +7,3 @@ Maintainer: Peter Ellis <peter.ellis@mbie.govt.nz>
 Depends: R (>= 3.0.1)
 Suggests: mbie, mbiemaps
 License: GPL3
-LazyData: true
