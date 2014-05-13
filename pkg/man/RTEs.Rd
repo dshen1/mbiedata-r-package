@@ -36,7 +36,6 @@ www.mbie.govt.nz
 
 #------Example 1 - stacked bar chart, pyramid style----------------
 
-require(extrafont)
 require(plyr)
 require(scales)
 require(ggplot2)
@@ -66,8 +65,6 @@ tmp$RTO2 <- factor(tmp$RTO2, levels=for_sorting[order(for_sorting$Spend), 1])
 # just once here so easy to change for all the plots at once.  
 Cols <- mbie.cols(c(6,5:1))
 
-# set font family for plots
-theme_set(theme_grey(base_family="Georgia"))
 
 # Pyramid stacked barchart
 # Note the very cool trick with two calls to geom_bar, thanks to Stack Exchange.
@@ -83,8 +80,8 @@ ggplot(tmp, aes(x=RTO2, weight=Spend/1000, fill=Product)) +
   scale_fill_manual(values=Cols) +
   scale_y_continuous(breaks=seq(-3,3,1), labels=abs(seq(-3,3,1))) +
   geom_hline(yintercept=0, color="white", size=1) +
-  annotate(geom="text", x=3, y=-5/4, label="Domestic", color="grey20", family="Georgia") +
-  annotate(geom="text", x=3, y=5/4, label="International", color="grey20", family="Georgia") +
+  annotate(geom="text", x=3, y=-5/4, label="Domestic", color="grey20") +
+  annotate(geom="text", x=3, y=5/4, label="International", color="grey20") +
   labs(y="\nAverage annual spend 2008-2013 ($ billion)", x="",
        title="Tourism spend by Regional Tourism Organisation\n(sorted by size of total tourism)\n")
 
@@ -115,7 +112,7 @@ if(require(igraph)==TRUE){
   # draw the basic plot
   plot(g, vertex.shape="sphere", layout=cmdscale(distances), 
     	vertex.color=ramp[as.numeric(cut(RTE_v$total, 100))],
-  		vertex.size=sqrt(RTE_v$total)/4, vertex.label.family="Calibri", vertex.label.font=2,
+  		vertex.size=sqrt(RTE_v$total)/4, vertex.label.font=2,
   		edge.arrow.size=.8, edge.color=ramp[as.numeric(cut(RTE_sub$Spend, 100))],
   		edge.width=sqrt(RTE_sub$Spend)/3)
   
@@ -151,9 +148,6 @@ treemap(RTE2,
         vColor="growth",
         palette="Spectral",
         title="Regional Tourism 2013, and CAGR 2009 to 2013",
-        fontfamily.title="Georgia",
-        fontfamily.labels="Calibri",
-        fontfamily.legend="Georgia",
         type="value",
         inflate.labels=TRUE,
         algorithm="squarified")

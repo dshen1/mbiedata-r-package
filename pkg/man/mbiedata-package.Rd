@@ -11,7 +11,7 @@ Data, mostly on tourism, produced by the NZ Ministry of Business and Employment 
 \tabular{ll}{
 Package: \tab mbiedata\cr
 Type: \tab Package\cr
-Version: \tab 0.1\cr
+Version: \tab 0.2\cr
 Date: \tab 2013-1-31\cr
 License: \tab GPL-3\cr
 }
