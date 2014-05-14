@@ -12,7 +12,7 @@ Data, mostly on tourism, produced by the NZ Ministry of Business and Employment 
 Package: \tab mbiedata\cr
 Type: \tab Package\cr
 Version: \tab 0.2\cr
-Date: \tab 2013-1-31\cr
+Date: \tab 2014-5-14\cr
 License: \tab GPL-3\cr
 }
 This package provides the following rectangular datasets, accessible by \code{data(...)} and with help available from ?.  These are datasets that are either finished collection (RVM, the old IVS methodology files) or only infrequently updated (RTEs, forecasts)
