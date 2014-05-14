@@ -130,7 +130,7 @@ if(require(igraph)==TRUE){
 data(RTEs)
 
 require(treemap)
-require(extrafont)
+
 
 # Estimate compound annual growth rate
 growth <- ddply(RTEs, .(Territorial_Authority, Region), summarise,
