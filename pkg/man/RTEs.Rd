@@ -19,7 +19,7 @@ The Regional Tourism Estimates (RTEs) are a world-first combination of the Touri
 
 The RTEs are currently only updated once a year, when Table 7 in the latest Tourism Satellite Account is updated.  The RTEs data frame holds the latest version.
 
-\code{RTEs2012} is the original RTEs released in August 2013.  \code{RTEs} is the latest version of the RTEs.
+\code{RTEs2012} is the original RTEs released in August 2013.  \code{RTEs} is the latest version of the RTEs.  It incorporates the fixes made in August 2014.
 }
 \source{
 New Zealand Ministry of Business, Innovation and Employment
