@@ -1,7 +1,7 @@
 Package: mbiedata
 Title: Data from the New Zealand Ministry of Business, Innovation and Employment
 Description: Data, mostly on tourism, produced by the NZ Ministry of Business and Employment that is either slowly changing (once per year) or from a finished data collection.
-Version: 0.3
+Version: 0.4
 Author: MBIE Sector Performance team
 Maintainer: Peter Ellis <peter.ellis@mbie.govt.nz>
 Depends: R (>= 3.0.1)

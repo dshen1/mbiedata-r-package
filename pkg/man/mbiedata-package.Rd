@@ -6,13 +6,13 @@
 Data from the New Zealand Ministry of Business, Innovation and Employment
 }
 \description{
-Data, mostly on tourism, produced by the NZ Ministry of Business and Employment that is either slowly changing (once per year) or from a finished data collection.}
+Data, mostly on tourism, produced by the NZ Ministry of Business and Employment.}
 \details{
 \tabular{ll}{
 Package: \tab mbiedata\cr
 Type: \tab Package\cr
-Version: \tab 0.3\cr
-Date: \tab 2014-8-26\cr
+Version: \tab 0.4\cr
+Date: \tab 2014-9-10\cr
 License: \tab GPL-3\cr
 }
 This package provides the following rectangular datasets, accessible by \code{data(...)} and with help available from ?.  These are datasets that are either finished collection (RVM, the old IVS methodology files) or only infrequently updated (RTEs, forecasts)

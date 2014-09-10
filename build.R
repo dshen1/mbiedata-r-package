@@ -1,5 +1,5 @@
-
-require(devtools)
+library(stringr)
+library(devtools)
 
 # Note - set the library path so the Test folder is listed first and the installation will be to there,
 # rather than to the folder used for libraries by everyone.  This should be done in the .Rprofile
@@ -8,7 +8,7 @@ require(devtools)
 
 
 # Import any data waiting in the staging area to be imported
-source("import_from_staging_area.R")
+source("import_code/import_from_staging_area.R")
 
 # Build the package:
   build(pkg="pkg", path= "P:/OTSP/data-infrastructure/archive/", binary=TRUE)

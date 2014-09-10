@@ -10,6 +10,8 @@ Trip summary (one line per respondent) from the International Visitor Survey (IV
 \usage{data(IVStrips)}
 \format{
  The data has been imported from SPSS format and has 211 variables.  Full names of these variables is stored elsewhere in a data dictionary (TODO - where?).  They are mostly factor or numeric.
+ 
+ All the IVS data in the mbiedata package are currently out of date and stop at June 2013.  Use TRED instead.
  }
 \details{
 %%  ~~ If necessary, more details than the __description__ above ~~
