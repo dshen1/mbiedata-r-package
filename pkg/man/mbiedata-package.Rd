@@ -26,6 +26,7 @@ This package provides the following rectangular datasets, accessible by \code{da
   \item{DTStrips}
   \item{DTSvisits}
   \item{RVM} - Regional Visitor Monitor
+  \item{RTIs} - Regional Tourism Indicators
   }
   
 

@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Motivation}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}The purpose of the mbiedata package}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}The role of the mbiedata package}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Making it work}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}When building mbiedata}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}When producing a regular data set}{4}{subsection.2.2}
+\contentsline {paragraph}{RTIs}{4}{paragraph*.1}
+\contentsline {paragraph}{IVS}{4}{paragraph*.2}
+\contentsline {paragraph}{RTEs}{4}{paragraph*.3}
