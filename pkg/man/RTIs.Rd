@@ -1,5 +1,7 @@
 \name{RTIs}
 \alias{RTIs}
+\alias{RTIs_int}
+\alias{RTIs_dom}
 \docType{data}
 \title{
 Regional Tourism Indicators
@@ -7,7 +9,7 @@ Regional Tourism Indicators
 \description{
 Regional Tourism Indicators
 }
-\usage{data(RTIs)}
+\usage{data(RTIs_int); data(RTIs_dom)}
 \format{
  Eight data frames corresponding to four pivot tables and four straight rectangles of data.
  
@@ -21,8 +23,6 @@ The eight data frames are
  \item Int_RTI_Visitor_Pivot_By_Country_By_RTO_published
  \item  Int_RTI_Visitor_Pivot_By_Commodity_published
  \item Dom_RTI_Visitor_pivot_By_Origin_By_RTO_published
- \item Domestic_Spend_RTO_Indexes_published
- \item International_Spend_RTO_Indexes_published
  \item International_Spend_TLA_Indexes_published
  \item Domestic_Spend_TLA_Indexes_published
 }
@@ -40,8 +40,8 @@ www.mbie.govt.nz
 
 \examples{
 
-data(RTIs)
-ggplot(subset(Dom_RTI_Visitor_Pivot_By_Commodity_published, 
+data(RTIs_int)
+ggplot(subset(Int_RTI_Visitor_Pivot_By_Commodity_published, 
 				Indicator_type == "Index" & 
 				Industry != "Education" & 
 				Industry != "Non tourism-related"), 

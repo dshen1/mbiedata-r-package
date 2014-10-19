@@ -11,8 +11,8 @@ Data, mostly on tourism, produced by the NZ Ministry of Business and Employment.
 \tabular{ll}{
 Package: \tab mbiedata\cr
 Type: \tab Package\cr
-Version: \tab 0.4\cr
-Date: \tab 2014-9-10\cr
+Version: \tab 0.4.1\cr
+Date: \tab 2014-10-20\cr
 License: \tab GPL-3\cr
 }
 This package provides the following rectangular datasets, accessible by \code{data(...)} and with help available from ?.  These are datasets that are either finished collection (RVM, the old IVS methodology files) or only infrequently updated (RTEs, forecasts)
@@ -26,7 +26,8 @@ This package provides the following rectangular datasets, accessible by \code{da
   \item{DTStrips}
   \item{DTSvisits}
   \item{RVM} - Regional Visitor Monitor
-  \item{RTIs} - Regional Tourism Indicators
+  \item{RTIs_int} - Regional Tourism Indicators (international)
+  \item{RTIs_dom} - Regional Tourism Indicators (domestic)
   }
   
 
