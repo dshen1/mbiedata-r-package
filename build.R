@@ -13,6 +13,7 @@ source("import_code/import_from_staging_area.R")
 
 # Build the package:
 build(pkg="pkg", path= "P:/OTSP/data-infrastructure/archive/", binary=TRUE)
+build(pkg="pkg", path= "P:/OTSP/data-infrastructure/archive/", binary=FALSE)
 
 # Build the documentation
 setwd("doc")
