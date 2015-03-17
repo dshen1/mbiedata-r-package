@@ -36,9 +36,10 @@ www.mbie.govt.nz
 
 #------Example 1 - stacked bar chart, pyramid style----------------
 
-require(plyr)
-require(scales)
-require(ggplot2)
+library(plyr)
+library(reshape2)
+library(scales)
+library(ggplot2)
 
 
 data(RTEs)
